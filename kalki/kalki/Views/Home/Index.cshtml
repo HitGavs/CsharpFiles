@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h4>Good to see you here.</h4>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<form action="Home/DoLogin">
+    <div>
+        <div>
+            <label for="txtUser">User Name:</label>
+            <input type="text" id="txtUser" required placeholder="Enter UserID" />
+        </div>
+        <div>
+            <label for="txtpwd">Password: </label>
+            <input type="password" id="txtpwd" required placeholder="Enter Password" />
+        </div>
+        <div>
+            <input type="submit" value="Login" />
+        </div>
+    </div>
+</form>
+<div>
+    <a href="Home/Sayhello?name=Hit">Sayhello</a>
+</div>
+<div>
+    <a href="Home/Add?x=100&y=30">Add</a>
+</div>
+<div>
+    <a href="Home/Multiply?x=100&y=30">Multiply</a>
+</div>
+<div>
+    <a href="Home/Divide?x=100&y=30">Divide</a>
+
+</div>
+<div>
+    <a href="Home/AddNewBook">NEW BOOK</a>
+</div>
+<div>
+    <a href="Home/ListAllBook">All Books</a>
+</div>
+<div>
+    <a href="Author/NewAuthor">Author</a>
+
+</div>
+<div>
+    <a href="Author">New Author list</a>
+
+</div>
+<div>
+    <a href="Emp">Employee List</a>
+</div>
+<div>
+    <a href="Movie">Movie List</a>
+</div>
+           
